@@ -1,0 +1,33 @@
+{
+  "name": "corporate",
+  "version": "1.0.0",
+  "description": "Building now...⏰",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --watch --config ./webpack.config.js",
+    "prepare": "cp ./src/index.html ./public/index.html",
+    "build": "webpack --config ./webpack.config.js",
+    "deploy": "npm run prepare && npm run build && gh-pages -d public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattari-inc/corporate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattari-inc/corporate/issues"
+  },
+  "homepage": "https://github.com/mattari-inc/corporate#readme",
+  "devDependencies": {
+    "css-loader": "^2.1.1",
+    "gh-pages": "^2.0.1",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-fix-style-only-entries": "^0.2.1"
+  }
+}

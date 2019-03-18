@@ -7,7 +7,7 @@
     "watch": "webpack --watch --config ./webpack.config.js",
     "prepare": "cp ./src/index.html ./public/index.html",
     "build": "webpack --config ./webpack.config.js",
-    "deploy": "npm run build && gh-pages -d public"
+    "deploy": "npm run prepare && npm run build && gh-pages -d public"
   },
   "repository": {
     "type": "git",

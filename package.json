@@ -4,7 +4,9 @@
   "description": "Building now...⏰",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "webpack --watch --config ./webpack.config.js",
+    "build": "webpack --config ./webpack.config.js",
+    "deploy": "npm run build && gh-pages -d public"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,7 @@
   },
   "homepage": "https://github.com/mattari-inc/corporate#readme",
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "webpack": "^4.29.6"
   }
 }

@@ -1,6 +1,7 @@
 const path = require('path');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 const FixStyleOnlyEntriesPlugin = require("webpack-fix-style-only-entries")
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = [{
   mode: 'development',
@@ -8,7 +9,7 @@ module.exports = [{
   output: {
     filename: 'bundle.js',
     path: path.join(__dirname, 'public/javascripts')
-  }
+  },
 }, {
   mode: 'development',
   entry: './src/stylesheets/application.scss',
@@ -24,7 +25,7 @@ module.exports = [{
           'css-loader',
           'sass-loader',
         ],
-      }
+      },
     ]
   },
   plugins: [
@@ -33,4 +34,29 @@ module.exports = [{
       filename: "bundle.css"
     })
   ]
+}, {
+  mode: 'development',
+  entry: './src/index.html',
+  output: {
+    path: path.join(__dirname, 'public/')
+  },
+  module: {
+    rules: [{
+      test: /\.html$/,
+      loader: "html-loader",
+    },{
+      test: /\.(jpeg|png)$/,
+      loader: 'file-loader',
+      options: {
+        name: '[name].[ext]',
+        outputPath: 'public/images',
+      },
+    }]
+  },
+  plugins: [
+    new FixStyleOnlyEntriesPlugin(),
+    new HtmlWebpackPlugin({
+      template: "src/index.html"
+    })
+  ],
 }]

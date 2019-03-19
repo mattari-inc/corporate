@@ -44,6 +44,13 @@ module.exports = [{
     rules: [{
       test: /\.html$/,
       loader: "html-loader",
+    },{
+      test: /\.(jpeg|png)$/,
+      loader: 'file-loader',
+      options: {
+        name: '[name].[ext]',
+        outputPath: 'public/images',
+      },
     }]
   },
   plugins: [

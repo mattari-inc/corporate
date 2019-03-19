@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"public/images/mattari.png\";\n\n//# sourceURL=webpack:///./src/images/mattari.png?");
+eval("module.exports = __webpack_require__.p + \"images/mattari.png\";\n\n//# sourceURL=webpack:///./src/images/mattari.png?");
 
 /***/ }),
 

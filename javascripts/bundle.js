@@ -91,9 +91,20 @@
   !*** ./src/javascripts/application.js ***!
   \****************************************/
 /*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("__webpack_require__(/*! ./bulma */ \"./src/javascripts/bulma.js\")\n\n\n//# sourceURL=webpack:///./src/javascripts/application.js?");
+
+/***/ }),
+
+/***/ "./src/javascripts/bulma.js":
+/*!**********************************!*\
+  !*** ./src/javascripts/bulma.js ***!
+  \**********************************/
+/*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("console.log('hello')\n\n\n//# sourceURL=webpack:///./src/javascripts/application.js?");
+eval("document.addEventListener('DOMContentLoaded', () => {\n  const hambuger = document.querySelector('.navbar-burger')\n  const target = document.querySelector('.navbar-menu')\n  hambuger.onclick = () => {\n    target.classList.toggle('is-active')\n  }\n})\n\n//# sourceURL=webpack:///./src/javascripts/bulma.js?");
 
 /***/ })
 

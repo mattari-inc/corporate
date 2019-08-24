@@ -1,0 +1,30 @@
+[
+  {
+    "name": "ANAインターコンチネンタル石垣リゾート",
+    "url": "https://www.anaintercontinental-ishigaki.jp/",
+    "image": "https://s-ec.bstatic.com/images/hotel/max1024x768/142/142467778.jpg",
+    "price": "53,182",
+    "description": "結婚式場のホテル"
+  },
+  {
+    "name": "ルートイングランティア石垣",
+    "url": "https://travel.rakuten.co.jp/HOTEL/10984/10984.html",
+    "image": "https://trvimg.r10s.jp/share/image_up/10984/origin/d98a633746d5d393664ee35361bcf8781cd9655a.47.1.26.2.jpg",
+    "price": "12,091",
+    "description": "市街地からも近くてすごくいい"
+  },
+  {
+    "name": "スーパーホテル石垣島　＜石垣島＞",
+    "url": "https://travel.rakuten.co.jp/HOTEL/1484/1484.html",
+    "image": "https://trvimg.r10s.jp/share/image_up/1484/origin/9fcd069d622cdd6c31a7796e34508f96a710b36c.47.1.26.2.jpg",
+    "price": "12,564",
+    "description": "市街地ど真ん中なので動きやすいと思います"
+  },
+  {
+    "name": "アパホテル＜石垣島＞",
+    "url": "https://travel.rakuten.co.jp/HOTEL/68616/68616.html",
+    "image": "https://trvimg.r10s.jp/share/image_up/68616/origin/84f28a6d6e003d1d71f9f4d14b53f12d21a1d685.47.1.26.2.jpg",
+    "price": "14,546",
+    "description": "市街地に少し歩く必要があります。ただ、港がすごく近いです"
+  }
+]

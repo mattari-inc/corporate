@@ -10,6 +10,22 @@ module.exports = [{
     filename: 'bundle.js',
     path: path.join(__dirname, 'public/javascripts')
   },
+  module: {
+    rules: [{
+      exclude: /node_modules/,
+      loader: 'babel-loader',
+      query: {
+        presets: ["@babel/preset-env", "@babel/preset-react"]
+      }
+    }, {
+      test: /\.json$/,
+      loader: "json-loader",
+      type: "javascript/auto"
+    }]
+  },
+  resolve: {
+    extensions: ['.js']
+  },
 }, {
   mode: 'development',
   entry: './src/stylesheets/application.scss',

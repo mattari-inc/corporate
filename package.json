@@ -34,5 +34,15 @@
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0",
     "webpack-fix-style-only-entries": "^0.2.1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "json-loader": "^0.5.7",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
   }
 }

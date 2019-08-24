@@ -5,7 +5,7 @@ class Hotel extends React.Component {
     const hotels = require('../data/hotel.json')
     const hotelElements = hotels.map((hotel, index) => {
       return(
-        <a href={hotel.url} target="_blank" key={index}>
+        <a href={hotel.url} className="column" target="_blank" key={index}>
           <div className="card mg5tb">
             <div className="card-image">
               <figure className="image is-4by3">
@@ -24,7 +24,7 @@ class Hotel extends React.Component {
       )
     })
     return(
-      <div>{ hotelElements }</div>
+      <div className="columns">{ hotelElements }</div>
     )
   }
 }

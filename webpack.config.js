@@ -36,7 +36,7 @@ module.exports = [{
   ]
 }, {
   mode: 'development',
-  entry: './src/index.html',
+  entry: ['./src/index.html', './src/ishigaki.html'],
   output: {
     path: path.join(__dirname, 'public/')
   },
@@ -56,7 +56,12 @@ module.exports = [{
   plugins: [
     new FixStyleOnlyEntriesPlugin(),
     new HtmlWebpackPlugin({
+      filename: 'index.html',
       template: "src/index.html"
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'ishigaki.html',
+      template: "src/ishigaki.html"
     })
   ],
 }]

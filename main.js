@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/index.html");
+/******/ 	return __webpack_require__(__webpack_require__.s = 0);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -105,6 +105,28 @@ eval("module.exports = __webpack_require__.p + \"images/mattari.png\";\n\n//# so
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("module.exports = \"<!DOCTYPE html>\\n<html>\\n  <head>\\n    <title>Mattari</title>\\n    <meta charset=\\\"UTF-8\\\">\\n    <meta name=\\\"viewport\\\" content=\\\"width=device-width,initial-scale=1\\\">\\n    <link rel=\\\"stylesheet\\\" type=\\\"text/css\\\" href=\\\"stylesheets/bundle.css\\\" />\\n  </head>\\n  <body>\\n    <nav class=\\\"navbar\\\" role=\\\"navigation\\\" aria-label=\\\"main navigation\\\">\\n      <div class=\\\"navbar-brand\\\">\\n        <a class=\\\"navbar-item\\\" href=\\\"/\\\">\\n          <img src=\\\"\" + __webpack_require__(/*! ./images/mattari.png */ \"./src/images/mattari.png\") + \"\\\" width=\\\"112\\\" height=\\\"28\\\">\\n        </a>\\n        <a role=\\\"button\\\" class=\\\"navbar-burger burger\\\" aria-label=\\\"menu\\\" aria-expanded=\\\"false\\\" data-target=\\\"navbarBasicExample\\\">\\n          <span aria-hidden=\\\"true\\\"></span>\\n          <span aria-hidden=\\\"true\\\"></span>\\n          <span aria-hidden=\\\"true\\\"></span>\\n        </a>\\n      </div>\\n      <div id=\\\"navbarBasicExample\\\" class=\\\"navbar-menu\\\">\\n        <div class=\\\"navbar-end\\\">\\n          <a class=\\\"navbar-item\\\">Services</a>\\n          <a class=\\\"navbar-item\\\">Tech</a>\\n        </div>\\n      </div>\\n    </nav>\\n    <div class=\\\"container\\\">\\n    </div>\\n    <script type=\\\"text/javascript\\\" src=\\\"javascripts/bundle.js\\\"></script>\\n  </body>\\n  <footer class=\\\"footer\\\">\\n    <div class=\\\"content has-text-centered\\\">\\n      <p>Copyright (c) 2019 Mattari All Rights Reserved.</p>\\n    </div>\\n  </footer>\\n</html>\\n\";\n\n//# sourceURL=webpack:///./src/index.html?");
+
+/***/ }),
+
+/***/ "./src/ishigaki.html":
+/*!***************************!*\
+  !*** ./src/ishigaki.html ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = \"<!DOCTYPE html>\\n<html>\\n  <head>\\n    <title>Mattari</title>\\n    <meta charset=\\\"UTF-8\\\">\\n    <meta name=\\\"viewport\\\" content=\\\"width=device-width,initial-scale=1\\\">\\n    <link rel=\\\"stylesheet\\\" type=\\\"text/css\\\" href=\\\"stylesheets/bundle.css\\\" />\\n  </head>\\n  <body>\\n    <nav class=\\\"navbar\\\" role=\\\"navigation\\\" aria-label=\\\"main navigation\\\">\\n      <div class=\\\"navbar-brand\\\">\\n        <a class=\\\"navbar-item\\\" href=\\\"/\\\">\\n          <img src=\\\"\" + __webpack_require__(/*! ./images/mattari.png */ \"./src/images/mattari.png\") + \"\\\" width=\\\"112\\\" height=\\\"28\\\">\\n        </a>\\n      </div>\\n    </nav>\\n    <div class=\\\"container\\\">\\n    </div>\\n    <script type=\\\"text/javascript\\\" src=\\\"javascripts/bundle.js\\\"></script>\\n  </body>\\n  <footer class=\\\"footer\\\">\\n    <div class=\\\"content has-text-centered\\\">\\n      <p>Copyright (c) 2019 Mattari All Rights Reserved.</p>\\n    </div>\\n  </footer>\\n</html>\\n\";\n\n//# sourceURL=webpack:///./src/ishigaki.html?");
+
+/***/ }),
+
+/***/ 0:
+/*!**************************************************!*\
+  !*** multi ./src/index.html ./src/ishigaki.html ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("__webpack_require__(/*! ./src/index.html */\"./src/index.html\");\nmodule.exports = __webpack_require__(/*! ./src/ishigaki.html */\"./src/ishigaki.html\");\n\n\n//# sourceURL=webpack:///multi_./src/index.html_./src/ishigaki.html?");
 
 /***/ })
 

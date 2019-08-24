@@ -104,7 +104,7 @@ eval("__webpack_require__(/*! ./bulma */ \"./src/javascripts/bulma.js\")\n\n\n//
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("document.addEventListener('DOMContentLoaded', () => {\n  const hambuger = document.querySelector('.navbar-burger')\n  const target = document.querySelector('.navbar-menu')\n  hambuger.onclick = () => {\n    target.classList.toggle('is-active')\n  }\n})\n\n//# sourceURL=webpack:///./src/javascripts/bulma.js?");
+eval("document.addEventListener('DOMContentLoaded', () => {\n  const hambuger = document.querySelector('.navbar-burger')\n  const target = document.querySelector('.navbar-menu')\n  if(hambuger) {\n    hambuger.onclick = () => {\n      target.classList.toggle('is-active')\n    }\n  }\n})\n\n//# sourceURL=webpack:///./src/javascripts/bulma.js?");
 
 /***/ })
 

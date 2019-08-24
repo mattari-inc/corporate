@@ -1,6 +1,13 @@
 .container {
   padding: 5px; }
 
+.content .image {
+  margin-left: 0px;
+  margin-right: 0px; }
+
+.mg5tb {
+  margin: 5px 0; }
+
 /*! bulma.io v0.7.5 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {
   from {
